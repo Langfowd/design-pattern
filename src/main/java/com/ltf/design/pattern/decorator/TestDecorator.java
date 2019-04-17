@@ -2,7 +2,7 @@ package com.ltf.design.pattern.decorator;
 
 public class TestDecorator {
     public static void main(String[] args) {
-        DrawSquart squart = new DrawSquart();
+        DrawSquare squart = new DrawSquare();
         squart.draw();
 
         DrawCirCle cirCle = new DrawCirCle();
