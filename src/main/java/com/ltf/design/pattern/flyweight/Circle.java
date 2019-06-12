@@ -1,6 +1,5 @@
 package com.ltf.design.pattern.flyweight;
 
-import lombok.Data;
 
 public class Circle implements Shape {
     private String color;

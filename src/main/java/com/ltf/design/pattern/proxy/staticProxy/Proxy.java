@@ -15,4 +15,10 @@ public class Proxy implements Person {
         person.marry();
 
     }
+
+    @Override
+    public String sayName(String name) {
+        System.out.println(name);
+        return "SUCCESS " + name;
+    }
 }
